@@ -24,7 +24,7 @@ namespace TrilhaApiDesafio.Controllers
             {
                 return NotFound("Nenhuma tarefa encontrada para a data especificada.");
             }
-            return Ok();
+            return Ok(tarefa);
         }
 
         [HttpGet("ObterTodos")]
